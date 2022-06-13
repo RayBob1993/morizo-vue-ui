@@ -1,0 +1,10 @@
+export const NAME_FORM = 'VForm';
+export const NAME_FORM_ITEM = 'VFormItem';
+export const NAME_INPUT = 'VInput';
+export const NAME_RADIO = 'VRadio';
+export const NAME_RADIO_BUTTON = 'VRadioButton';
+export const NAME_RADIO_GROUP = 'VRadioGroup';
+export const NAME_CHECKBOX = 'VCheckbox';
+export const NAME_CHECKBOX_BUTTON = 'VCheckboxButton';
+export const NAME_CHECKBOX_GROUP = 'VCheckboxGroup';
+export const NAME_BUTTON = 'VButton';

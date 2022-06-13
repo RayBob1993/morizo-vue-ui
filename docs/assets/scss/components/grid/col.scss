@@ -1,0 +1,104 @@
+.col {
+  flex: 0 0 auto;
+  max-width: 100%;
+  min-height: 1px;
+  padding-right: $gutters;
+  padding-left: $gutters;
+
+  @include generate-cols();
+}
+
+// Offset
+.col-offset {
+  @include generate-offsets();
+}
+
+// Order
+.col-order {
+  @include generate-orders();
+}
+
+// Responsive
+@include media-xxl-down {
+  .col-xxl {
+    @include generate-cols();
+  }
+
+  .col-xxl-offset {
+    @include generate-offsets();
+  }
+
+  .col-xxl-order {
+    @include generate-orders();
+  }
+}
+
+@include media-xl-down {
+  .col-xl {
+    @include generate-cols();
+  }
+
+  .col-xl-offset {
+    @include generate-offsets();
+  }
+
+  .col-xl-order {
+    @include generate-orders();
+  }
+}
+
+@include media-lg-down {
+  .col-lg {
+    @include generate-cols();
+  }
+
+  .col-lg-offset {
+    @include generate-offsets();
+  }
+
+  .col-lg-order {
+    @include generate-orders();
+  }
+}
+
+@include media-md-down {
+  .col-md {
+    @include generate-cols();
+  }
+
+  .col-md-offset {
+    @include generate-offsets();
+  }
+
+  .col-md-order {
+    @include generate-orders();
+  }
+}
+
+@include media-sm-down {
+  .col-sm {
+    @include generate-cols();
+  }
+
+  .col-sm-offset {
+    @include generate-offsets();
+  }
+
+  .col-sm-order {
+    @include generate-orders();
+  }
+}
+
+@include media-xs-down {
+  .col-xs {
+    @include generate-cols();
+  }
+
+  .col-xs-offset {
+    @include generate-offsets();
+  }
+
+  .col-xs-order {
+    @include generate-orders();
+  }
+}
